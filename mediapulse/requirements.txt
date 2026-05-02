@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-multipart
+yt-dlp
+numpy
+scipy
+librosa
+soundfile
+redis
+SpeechRecognition
+langdetect
+faster-whisper
+scikit-learn
+ffmpeg-python

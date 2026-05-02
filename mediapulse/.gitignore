@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+.DS_Store
+*.db
+*.log
+
+# Backend data
+data/tmp_uploads/
+data/live_chunks/
+data/diagnostics/
+
+# Flutter/Dart
+mediapulse_app/.flutter-plugins
+mediapulse_app/.packages
+mediapulse_app/.flutter-plugins-dependencies
+mediapulse_app/pubspec.lock
+mediapulse_app/build/
+mediapulse_app/.dart_tool/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Redis/Docker
+redis.conf
+docker-compose.override.yml
